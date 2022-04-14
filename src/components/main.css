@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.main{
+    margin-top: 60px;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.titlePage{
+    color: rgb(245, 245, 245);
+    font-family: 'Inter', sans-serif;
+    font-size: 80px;
+}
+.titlePage2{
+    color: rgb(245, 245, 245);
+    font-family: 'Inter', sans-serif;
+    font-size: 80px;
+}
+.subtitlePage{
+    font-family: 'Inter', sans-serif;
+    color: rgb(145, 145, 145);
+    font-size: 40px;
+}
+
+.subtitlePage2{
+    
+   
+    color: rgb(255, 255, 255);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  
+    font-size: 20px;
+}
+
+.imgMain{
+    width: 50%;
+    height: 50%;
+}
+.textSection{
+    width: 50%;
+}
+.buttonMain{
+    margin-top: 20px;
+    width: 150px;
+    padding: 14px 0px;
+    font-family: 'Inter', sans-serif;
+    border: 3px solid #dfa300;
+    color:#f0f0f0 ;
+    background: #dfa300;
+    border-radius: 0px;
+    font-size: 17px;
+}
+.buttonMain:hover{
+    border: 3px solid #9e2000;
+    color:#ffffff;
+    background: #9e2000;
+}
+.social{
+    background-color: rgb(10, 10, 10);
+    padding: 60px;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.icon1{
+    margin: 20px;
+}
+.icon2{
+    margin: 20px;
+}
+
+@media screen and (max-width:1000px){
+     .textSection{
+        width: 100%;
+    }
+    .imgMain{
+        margin-top: 50px;
+        width: 0%;
+        height: 0%;
+    }
+    .main{
+        margin-top: 60px;
+        padding: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
+    @media screen and (max-width:600px){
+        .textSection{
+           width: 100%;
+       }
+       .imgMain{
+           margin-top: 50px;
+           width: 100%;
+           height: 100%;
+       }
+      
+       .main{
+        margin-top: 60px;
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+}
+
